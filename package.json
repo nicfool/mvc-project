@@ -1,0 +1,14 @@
+{
+  "name": "projeto-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node startup.js"
+  },
+  "author": "Ludmila Martins",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

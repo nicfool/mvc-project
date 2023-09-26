@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando Prsonagens</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <main>
+        <section id="cadperson">
+            <h2>Cadastrar Personagens</h2>
+            <form action="">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="characName" class="form-label">Nome do Personagem: </label>
+                        <input type="text" name="characName" id="characName" class="form-control" tabindex="1">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="characCoin" class="form-label">Moedas </label>
+                        <input type="text" name="characCoin" id="characCoin" class="form-control" tabindex="2">
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Gênero e Tipo</span>
+                        <select class="form-select" id="inputGroupSelect01" tabindex="3">
+                          <option selected>Gênero</option>
+                          <option value="1">Feminino</option>
+                          <option value="2">Masculino</option>
+                        </select>
+                        <select class="form-select" id="inputGroupSelect02" tabindex="4">
+                            <option selected>Tipo</option>
+                            <option value="1">Coruja</option>
+                            <option value="2">Humano</option>
+                            <option value="3">Mago</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="characLat" class="form-label">Latitude</label>
+                            <input type="text" value="-22.120417901581245" name="characLat" id="characLat" class="form-control" tabindex="5">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="characLong" class="form-label">Longitude</label>
+                            <input type="text" value="-51.405620823035385" name="characLong" id="characLong" class="form-control" tabindex="6">                            
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <input type="submit" value="Cadastrar" name="characregbtn" id="characregbtn" class="btn btn-warning" tabindex="7">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
